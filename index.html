@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script type="text/javascript" src="eulerbeats.js"></script>
+ <script>
+   const seeds = [
+     21575894274,
+     18052613891,
+     12918588162,
+     21760049923,
+     22180136451,
+     8926004995,
+     22364095747,
+     17784178691,
+     554240256,
+     17465084160,
+     13825083651,
+     12935627264,
+     8925938433,
+     4933026051,
+     8673888000,
+     13439075074,
+     13371638787,
+     17750625027,
+     21592343040,
+     4916052483,
+     4395697411,
+     13556253699,
+     470419715,
+     17800760067,
+     9193916675,
+     9395767298,
+     22314157057,
+   ];
+   function renderNthLP(n) {
+     EulerBeats.visual.render(document.getElementById("eulerbeats"), seeds[n]);
+   }
+   function makeButtons() {
+      for (var i = 0; i < seeds.length; i++) {
+        var btn = document.createElement("button");
+        var txt = document.createTextNode(`LP ${i < 9 ? '0' : ''}${i + 1}`);
+        btn.appendChild(txt);
+        const j = i;
+        btn.onclick = function () {
+          renderNthLP(j);
+        };
+        document.body.appendChild(btn);
+    }
+  }
+ </script>
+</head>
+<body onload="makeButtons()">
+
+<p>Select a record below, then click on the record to play/pause (you might need to refresh between switching records)</p>
+<div id="eulerbeats"/>
+
+</body>
+</html>
