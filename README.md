@@ -1,4 +1,6 @@
-# WIP - Finish rest of Ableton fines
+![Ableton Screenshot](screenshot.png)
+
+# WIP - Need to finish rest of Ableton files
 
 These are MIDI/project file for remixing [Eulerbeats](https://eulerbeats.com/).
 Everything is ripped from their on-chain(!!) audio generation code.
