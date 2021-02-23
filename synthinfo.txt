@@ -1,0 +1,1674 @@
+-------------------------------
+LP01
+-------------------------------
+BPM: 333.3333333333333
+Time Signature: 12/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.13617538664730092,
+  "snappy": 0.5649675390808625,
+  "tune": -0.00988717513646406
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 8743.870895582293,
+  "attack": 8938.386138460944,
+  "cutoff": 0.28022564972707187,
+  "filterType": 3,
+  "filterMult": 3.2123590636510926,
+  "Q": 0.23843790233659093,
+  "waveform": "sine",
+  "pulsewidth": 0.3677113031026238,
+  "detune2": 0.22840660791371192,
+  "detune3": -0.6292425470346643,
+  "gain": 0.3456881755916584
+}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.06660598353860224,
+  "attack": 40830.11126011091,
+  "decay": 762048,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.7813928883748305
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP02
+-------------------------------
+BPM: 346.6666666666667
+Time Signature: 11/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.1553973438817593,
+  "snappy": 0.471933769282623,
+  "tune": 0.04498962394973205
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 6753.6237498772525,
+  "attack": 8292.032663419584,
+  "cutoff": 0.38997924789946414,
+  "filterType": 2,
+  "filterMult": 3.4043147896918526,
+  "Q": 0.26377844681264834,
+  "waveform": "pwm",
+  "pulsewidth": 0.34477450643571506,
+  "detune2": 0.10425332766681095,
+  "detune3": -0.3167999020042771,
+  "gain": 0.3121395834733448
+}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.06328334890295083,
+  "attack": 64465.27075448451,
+  "decay": 671676.923076923,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.927279240165808
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP03
+-------------------------------
+BPM: 275.55555555555554
+Time Signature: 10/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Hat
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.11089003436736676,
+  "snappy": 0.5289388401086398,
+  "tune": 0.07180864469537482
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 10824.258700997114,
+  "attack": 9187.969276200378,
+  "cutoff": 0.4436172893907496,
+  "filterType": 2,
+  "filterMult": 1.1145385030827129,
+  "Q": 0.362801968261374,
+  "waveform": "sine",
+  "pulsewidth": 0.3881842033271824,
+  "detune2": -0.686305403724873,
+  "detune3": -0.12689675691217417,
+  "gain": 0.32349975495963007
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "pwm",
+  "gain": 0.06531924428959429,
+  "attack": 76105.99383043063,
+  "decay": 768193.5483870967,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.1870492623428618
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP04
+-------------------------------
+BPM: 400
+Time Signature: 12/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.19603687725120836,
+  "snappy": 1.4559170473490668,
+  "tune": 0.0690150043168842
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 5061.547673647631,
+  "attack": 5040.608901259317,
+  "cutoff": 0.4380300086337684,
+  "filterType": 3,
+  "filterMult": 2.608445019132887,
+  "Q": 0.4261101156027508,
+  "waveform": "sine",
+  "pulsewidth": 0.48302022685093104,
+  "detune2": -0.7792431866910192,
+  "detune3": 0.3718342570009554,
+  "gain": 0.35069274965208025
+}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.09842560883389524,
+  "attack": 74791.82408680068,
+  "decay": 635039.9999999999,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.3224182145409942
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP05
+-------------------------------
+BPM: 311.1111111111111
+Time Signature: 12/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Hat
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.11060018952539395,
+  "snappy": 1.0270896213663945,
+  "tune": -0.09611868850961401
+}
+Chain: [{"name":"reverb1.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 11534.790360436826,
+  "attack": 7675.037452796027,
+  "cutoff": 0.107762622980772,
+  "filterType": 1,
+  "filterMult": 2.304557245284741,
+  "Q": 0.23283565443562113,
+  "waveform": "pwm",
+  "pulsewidth": 0.2735577058243507,
+  "detune2": -0.9778845130967966,
+  "detune3": 0.1703299416394657,
+  "gain": 0.36291250327249147
+}
+Chain: [{"name":"output","gain":0.3}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "pwm",
+  "gain": 0.08311034362022837,
+  "attack": 3796.6451744780584,
+  "decay": 816480.0000000001,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.091463506416403
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP06
+-------------------------------
+BPM: 328.8888888888889
+Time Signature: 9/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.1512444698388663,
+  "snappy": 0.589953501718628,
+  "tune": -0.07684063164706459
+}
+Chain: [{"name":"reverb1.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 5984.304129398441,
+  "attack": 6704.556839177808,
+  "cutoff": 0.14631873670587084,
+  "filterType": 1,
+  "filterMult": 1.3905819246165265,
+  "Q": 0.34963705323461913,
+  "waveform": "triangle",
+  "pulsewidth": 0.35488148937911324,
+  "detune2": 0.9000527363532456,
+  "detune3": -0.038336930023433524,
+  "gain": 0.357232335277331
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.06749833934709387,
+  "attack": 11991.694789101948,
+  "decay": 579259.4594594594,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.39684226270856016
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP07
+-------------------------------
+BPM: 377.77777777777777
+Time Signature: 12/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.1758425716265265,
+  "snappy": 1.0135580036252576,
+  "tune": -0.060209200031385995
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 5974.762751367394,
+  "attack": 6357.587333352194,
+  "cutoff": 0.17958159993722803,
+  "filterType": 2,
+  "filterMult": 2.04631546620908,
+  "Q": 0.4242813009084785,
+  "waveform": "pwm",
+  "pulsewidth": 0.16020845376187937,
+  "detune2": 0.8604194691361045,
+  "detune3": 0.6352095095044206,
+  "gain": 0.32511617841896057
+}
+Chain: [{"name":"output","gain":0.3}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.08262707155804491,
+  "attack": 18950.39789261004,
+  "decay": 672395.294117647,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.8951997543189009
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP08
+-------------------------------
+BPM: 360
+Time Signature: 11/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.16056263616677882,
+  "snappy": 0.5497165602286259,
+  "tune": -0.0022113940522103803
+}
+Chain: [{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 6294.272591228812,
+  "attack": 7649.144903720387,
+  "cutoff": 0.2955772118955793,
+  "filterType": 4,
+  "filterMult": 1.5,
+  "Q": 0.12685528600777618,
+  "waveform": "pwm",
+  "pulsewidth": 0.2709503880047123,
+  "detune2": 0.0028484734903031494,
+  "detune3": -0.38973259927206527,
+  "gain": 0.2
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.06606130572245093,
+  "attack": 44063.842405829906,
+  "decay": 323400,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.5454551245752555
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP09
+-------------------------------
+BPM: 502.2222222222222
+Time Signature: 40/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.1785678620895851,
+  "snappy": 0.6081831250444707,
+  "tune": 0.0691735181826516
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 14752.330036166537,
+  "attack": 19327.33185381027,
+  "cutoff": 0.43834703636530326,
+  "filterType": 3,
+  "filterMult": 2.152667903251654,
+  "Q": 0.265045465932053,
+  "waveform": "sine",
+  "pulsewidth": 0.3657220579629211,
+  "detune2": -0.9941064065696992,
+  "detune3": 0.7216085192922037,
+  "gain": 0.3542620045710464
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.06814939732301682,
+  "attack": 74808.53640737633,
+  "decay": 1685946.9026548674,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.976027606471257
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP10
+-------------------------------
+BPM: 346.6666666666667
+Time Signature: 11/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.15197100634350136,
+  "snappy": 0.6143456706315191,
+  "tune": 0.03701634355693387
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 6905.89091668913,
+  "attack": 7675.17221038804,
+  "cutoff": 0.3740326871138677,
+  "filterType": 2,
+  "filterMult": 1.9353860945066117,
+  "Q": 0.19264668461255496,
+  "waveform": "pwm",
+  "pulsewidth": 0.3554226234242378,
+  "detune2": 0.44387704267865047,
+  "detune3": 0.2844267742136708,
+  "gain": 0.34406143221021923
+}
+Chain: [{"name":"output","gain":0.3}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.06836948823683997,
+  "attack": 61025.12609616199,
+  "decay": 335838.4615384615,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.8108934318250248
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP11
+-------------------------------
+BPM: 368.8888888888889
+Time Signature: 10/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.17103231502205746,
+  "snappy": 1.4249488238803678,
+  "tune": -0.0220225000287428
+}
+Chain: [{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 5242.351105798338,
+  "attack": 4606.53063681718,
+  "cutoff": 0.2559549999425144,
+  "filterType": 4,
+  "filterMult": 1.5,
+  "Q": 0.12576558385985664,
+  "waveform": "pwm",
+  "pulsewidth": 0.23239993376191706,
+  "detune2": -0.6162820557578925,
+  "detune3": -0.25501794291812985,
+  "gain": 0.2
+}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.09731960085287028,
+  "attack": 35482.14518901286,
+  "decay": 286915.6626506024,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.0430669553141343
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP12
+-------------------------------
+BPM: 384.44444444444446
+Time Signature: 10/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.18046338202761947,
+  "snappy": 0.7278426158871297,
+  "tune": -0.0016362399604986366
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 4767.351471948614,
+  "attack": 5939.639045371143,
+  "cutoff": 0.2967275200790027,
+  "filterType": 2,
+  "filterMult": 2.2193874497461366,
+  "Q": 0.14311309158802032,
+  "waveform": "triangle",
+  "pulsewidth": 0.34964570308147813,
+  "detune2": 0.31315892826387426,
+  "detune3": 0.20990769161358003,
+  "gain": 0.30097685318933143
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.0724229505673975,
+  "attack": 44252.8276493924,
+  "decay": 550612.7167630058,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.0267344618070637
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP13
+-------------------------------
+BPM: 364.44444444444446
+Time Signature: 9/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.17279033309150693,
+  "snappy": 1.3911667356100565,
+  "tune": 0.04340705388276547
+}
+Chain: [{"name":"reverb1.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 4727.065131033843,
+  "attack": 4249.114730871551,
+  "cutoff": 0.38681410776553093,
+  "filterType": 1,
+  "filterMult": 2.0490381152965256,
+  "Q": 0.43831309581073585,
+  "waveform": "triangle",
+  "pulsewidth": 0.20817147613506679,
+  "detune2": -0.7501391442165186,
+  "detune3": -0.2996223183872644,
+  "gain": 0.38622919282643126
+}
+Chain: [{"name":"output","gain":0.3}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.09611309770035917,
+  "attack": 63756.11762923395,
+  "decay": 261373.1707317073,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.8972689676253593
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP14
+-------------------------------
+BPM: 280
+Time Signature: 8/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.13634114101332673,
+  "snappy": 0.39732152143224087,
+  "tune": -0.024589363487757504
+}
+Chain: [{"name":"reverb1.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 6931.143402325132,
+  "attack": 7794.633976499753,
+  "cutoff": 0.250821273024485,
+  "filterType": 1,
+  "filterMult": 2.580852442164087,
+  "Q": 0.2664898019080283,
+  "waveform": "triangle",
+  "pulsewidth": 0.3263438440508253,
+  "detune2": 0.40992950783038395,
+  "detune3": 0.7606851204109262,
+  "gain": 0.3477446976994429
+}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.060618625765437174,
+  "attack": 34727.802558098076,
+  "decay": 302400,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.301447856044706
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP15
+-------------------------------
+BPM: 364.44444444444446
+Time Signature: 9/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.174400496929502,
+  "snappy": 0.4617342864657985,
+  "tune": 0.003656762665559657
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 4683.422197281682,
+  "attack": 6490.806421467799,
+  "cutoff": 0.30731352533111933,
+  "filterType": 2,
+  "filterMult": 3.418315648042153,
+  "Q": 0.2639269138831878,
+  "waveform": "triangle",
+  "pulsewidth": 0.2674236009675951,
+  "detune2": -0.5300043619463395,
+  "detune3": -0.199292740009696,
+  "gain": 0.30592904619770706
+}
+Chain: [{"name":"output","gain":0.3}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.06291908165949281,
+  "attack": 46586.991273729174,
+  "decay": 522746.3414634146,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.9379198925120362
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP16
+-------------------------------
+BPM: 260
+Time Signature: 10/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Hat
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.10934922290107352,
+  "snappy": 1.0736794893648038,
+  "tune": -0.000785651788282854
+}
+Chain: [{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 11633.510973975985,
+  "attack": 7502.957102848471,
+  "cutoff": 0.2984286964234343,
+  "filterType": 3,
+  "filterMult": 3.443365802696462,
+  "Q": 0.16651591608460875,
+  "waveform": "pwm",
+  "pulsewidth": 0.28376262890014914,
+  "detune2": 0.35655969527397247,
+  "detune3": -0.6201950661661613,
+  "gain": 0.3564918452879283
+}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "pwm",
+  "gain": 0.08477426747731442,
+  "attack": 45035.6373432509,
+  "decay": 814153.8461538462,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.9569580100493114
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP17
+-------------------------------
+BPM: 275.55555555555554
+Time Signature: 10/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Hat
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.11915035863676167,
+  "snappy": 1.287945596341342,
+  "tune": -0.06259760665620889
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 10073.846466665247,
+  "attack": 6493.271688061913,
+  "cutoff": 0.17480478668758226,
+  "filterType": 2,
+  "filterMult": 1.6322484333077227,
+  "Q": 0.20264659969511742,
+  "waveform": "triangle",
+  "pulsewidth": 0.2831501098808076,
+  "detune2": 0.7836706011148635,
+  "detune3": -0.6882074832028593,
+  "gain": 0.33818785016155745
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "pwm",
+  "gain": 0.09242662844076222,
+  "attack": 18446.118471119426,
+  "decay": 768193.5483870967,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.5805088093138693
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP18
+-------------------------------
+BPM: 333.3333333333333
+Time Signature: 11/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.14611248580920347,
+  "snappy": 1.4862371466762851,
+  "tune": -0.08640165121250903
+}
+Chain: [{"name":"reverb1.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 7470.1008196196835,
+  "attack": 5484.332163982652,
+  "cutoff": 0.12719669757498198,
+  "filterType": 1,
+  "filterMult": 1.5715665157549665,
+  "Q": 0.1931894143475802,
+  "waveform": "pwm",
+  "pulsewidth": 0.2813449096556724,
+  "detune2": -0.8950969915240421,
+  "detune3": -0.9001748938899254,
+  "gain": 0.3344292990253962
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.09950846952415304,
+  "attack": 7846.4421994396425,
+  "decay": 698544.0000000001,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.5343905519737745
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP19
+-------------------------------
+BPM: 366.66666666666663
+Time Signature: 12/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.16993875754269538,
+  "snappy": 1.3231912872766771,
+  "tune": 0.04357694736463599
+}
+Chain: [{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 6369.674352730218,
+  "attack": 5777.071504417991,
+  "cutoff": 0.387153894729272,
+  "filterType": 4,
+  "filterMult": 2.184311834242635,
+  "Q": 0.1666847994307318,
+  "waveform": "triangle",
+  "pulsewidth": 0.18202316043571046,
+  "detune2": 0.8155159008724695,
+  "detune3": -0.18857087162541575,
+  "gain": 0.3788297971257635
+}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.09368540311702418,
+  "attack": 63826.39536941757,
+  "decay": 692770.9090909092,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.0000769940244028
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP20
+-------------------------------
+BPM: 300
+Time Signature: 8/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.1450623036029356,
+  "snappy": 0.2323774977296125,
+  "tune": -0.03806581263547742
+}
+Chain: [{"name":"reverb1.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 6080.146103388856,
+  "attack": 8058.066643692519,
+  "cutoff": 0.2238683747290452,
+  "filterType": 2,
+  "filterMult": 2.6078038457317234,
+  "Q": 0.27357513330862276,
+  "waveform": "pwm",
+  "pulsewidth": 0.2643798844132107,
+  "detune2": -0.12429283021356241,
+  "detune3": 0.8025308046453574,
+  "gain": 0.34701057573802246
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.05472776777605759,
+  "attack": 28835.152212060602,
+  "decay": 282240,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.3219309227561098
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP21
+-------------------------------
+BPM: 220
+Time Signature: 8/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Hat
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.10081632489782351,
+  "snappy": 0.6598036543417947,
+  "tune": -0.06958027252640023
+}
+Chain: [{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 11929.886096782706,
+  "attack": 8591.769783099504,
+  "cutoff": 0.16083945494719956,
+  "filterType": 4,
+  "filterMult": 1.3656073022534656,
+  "Q": 0.18998630167043304,
+  "waveform": "sine",
+  "pulsewidth": 0.1438795496665989,
+  "detune2": -0.07001013263834466,
+  "detune3": 0.06700625727171428,
+  "gain": 0.38361810305514155
+}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "pwm",
+  "gain": 0.0699929876550641,
+  "attack": 15964.585049407815,
+  "decay": 384872.72727272724,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.37786154971263386
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP22
+-------------------------------
+BPM: 368.8888888888889
+Time Signature: 10/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.172836219931105,
+  "snappy": 0.22722346056361858,
+  "tune": -0.017839532513607995
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 5187.6362844578225,
+  "attack": 8219.203387781485,
+  "cutoff": 0.264320934972784,
+  "filterType": 2,
+  "filterMult": 2.1203503281490157,
+  "Q": 0.15902182705613088,
+  "waveform": "pwm",
+  "pulsewidth": 0.3344091611699696,
+  "detune2": 0.4282941836936516,
+  "detune3": 0.41069124497607845,
+  "gain": 0.3292689141271694
+}
+Chain: [{"name":"output","gain":0.3}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.054543695020129235,
+  "attack": 37289.32889767322,
+  "decay": 573831.3253012048,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.9514662493932519
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP23
+-------------------------------
+BPM: 480
+Time Signature: 35/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.17984806963268057,
+  "snappy": 1.3253358400494109,
+  "tune": 0.05900576769327018
+}
+Chain: [{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 13409.756106505141,
+  "attack": 12860.85459426956,
+  "cutoff": 0.41801153538654034,
+  "filterType": 4,
+  "filterMult": 2.170897963529569,
+  "Q": 0.26755378081616077,
+  "waveform": "triangle",
+  "pulsewidth": 0.47149631190877705,
+  "detune2": -0.30089863559078367,
+  "detune3": 0.14447312648553634,
+  "gain": 0.35376005134421573
+}
+Chain: [{"name":"output","gain":0.3}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.09376199428747896,
+  "attack": 70404.0194347207,
+  "decay": 1543500,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.9898824522824724
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP24
+-------------------------------
+BPM: 333.3333333333333
+Time Signature: 11/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.14970252579587395,
+  "snappy": 1.2198391063420786,
+  "tune": -0.0664344783013803
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 7290.959148466704,
+  "attack": 6064.137175084221,
+  "cutoff": 0.16713104339723941,
+  "filterType": 3,
+  "filterMult": 2.465628555818057,
+  "Q": 0.2869346449631849,
+  "waveform": "triangle",
+  "pulsewidth": 0.4606872903605108,
+  "detune2": -0.9261882070859428,
+  "detune3": -0.9519165949277522,
+  "gain": 0.344449108528579
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.08999425379793138,
+  "attack": 16453.841180036736,
+  "decay": 698544.0000000001,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.2138777024217233
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP25
+-------------------------------
+BPM: 328.8888888888889
+Time Signature: 9/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clave
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.15906955620048394,
+  "snappy": 1.1996645027520572,
+  "tune": 0.08926939802190645
+}
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 5689.919095924728,
+  "attack": 5069.2005514039765,
+  "cutoff": 0.4785387960438129,
+  "filterType": 2,
+  "filterMult": 3.1150067806593142,
+  "Q": 0.19225272856648418,
+  "waveform": "pwm",
+  "pulsewidth": 0.14466791450977326,
+  "detune2": 0.7083983861966772,
+  "detune3": -0.24852495901177463,
+  "gain": 0.34504901277487077
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "sine",
+  "gain": 0.0892737322411449,
+  "attack": 83575.71776900633,
+  "decay": 579259.4594594594,
+  "shape": "exponential",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 1.7074051533010788
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP26
+-------------------------------
+BPM: 257.77777777777777
+Time Signature: 9/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Hat
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.11786944923405827,
+  "snappy": 1.4128672347269458,
+  "tune": -0.037000419877313104
+}
+Chain: [{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 9797.056950724098,
+  "attack": 5959.315549837049,
+  "cutoff": 0.2259991602453738,
+  "filterType": 4,
+  "filterMult": 1.0033520873375892,
+  "Q": 0.46892862455642903,
+  "waveform": "pwm",
+  "pulsewidth": 0.15183632812986617,
+  "detune2": -0.6474313081453147,
+  "detune3": 0.27951336714795616,
+  "gain": 0.2
+}
+Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "pwm",
+  "gain": 0.09688811552596235,
+  "attack": 29540.642419750573,
+  "decay": 739055.172413793,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.10254758637656779
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---
+-------------------------------
+LP27
+-------------------------------
+BPM: 400
+Time Signature: 12/4
+---
+Track Name: kick
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.8}]
+---
+Track Name: kick2
+Instrument: Kick
+Instrument Config: {}
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
+---
+Track Name: hat
+Instrument: Clap
+Instrument Config: {}
+Chain: [{"name":"output","gain":0.17}]
+---
+Track Name: snare
+Instrument: Snare
+Instrument Config: {
+  "decay": 0.1969497720655909,
+  "snappy": 0.6262277968326088,
+  "tune": -0.06319298212783905
+}
+Chain: [{"name":"output","gain":0.75}]
+---
+Track Name: melody
+Instrument: Synth
+Instrument Config: {
+  "decay": 5038.086561834392,
+  "attack": 7211.763854120721,
+  "cutoff": 0.17361403574432188,
+  "filterType": 4,
+  "filterMult": 1.5,
+  "Q": 0.22753241697428167,
+  "waveform": "pwm",
+  "pulsewidth": 0.304504881946923,
+  "detune2": 0.6962903350431588,
+  "detune3": -0.6896368832990447,
+  "gain": 0.2
+}
+Chain: [{"name":"output","gain":0.3}]
+---
+Track Name: chords
+Instrument: PolySynth
+Instrument Config: {
+  "waveform": "triangle",
+  "gain": 0.0687938498868789,
+  "attack": 17581.296852592543,
+  "decay": 635039.9999999999,
+  "shape": "linear",
+  "antialias": true,
+  "filterType": 2,
+  "panVoices": true,
+  "cutoff": 0.878567883334108
+}
+Chain: [{"name":"chorus"},{"name":"output"}]
+---

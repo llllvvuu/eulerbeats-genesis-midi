@@ -1,28 +1,10 @@
+var EB = {};
+
 (function (window) {
 /*eslint-env es2017*/
 
 window.EulerBeats = {}
 window.EulerBeats.version = '1.1.1'
-
-console.log(`
-EulerBeats ${window.EulerBeats.version}
-
-Usage:
-
-var seed = 0x41a010103 // token id number or hex string
-
-// Assuming there is an element such as <div id="eulerbeats"/>
-EulerBeats.visual.render(document.getElementById("eulerbeats"), seed)
-// ...and click on the image
-
-// Audio only:
-EulerBeats.audio.play(seed)
-// ...and click somewhere on the page if no audio comes out
-
-// Before playing another:
-EulerBeats.audio.stop()
-
-`)
 
 window.EulerBeats.decodeSeed = seed => {
   if (typeof seed == 'number') {
@@ -445,12 +427,10 @@ const smallPop = (id, x, y) => {
 const setupAnimation = (tracks, key, frequency, animationFunc) => {
   EBV.animationTimeouts.push(
     setTimeout(() => {
-      console.log(`starting ${key}`)
       const animationInterval = setInterval(animationFunc, frequency)
       EBV.animationIntervals.push(animationInterval)
       EBV.animationTimeouts.push(
         setTimeout(() => {
-          console.log(`ending ${key}`)
           clearInterval(animationInterval)
         }, tracks[key].duration * 1000)
       )
@@ -539,11 +519,9 @@ EBV.toggle = mainElement => {
 // callback(elementId, event: 'start' | 'stop')
 EBV.render = (mainElement, seed, containerSize = 480, callback) => {
   if (!mainElement.id) {
-    console.error('Element must have id')
     return
   }
   const decodedSeed = window.EulerBeats.decodeSeed(seed)
-  console.log('Rendering', seed, decodedSeed)
 
   const id = mainElement.id
 
@@ -593,9 +571,9 @@ window.EulerBeats.audio = EBA
 
 EBA.overrides = {}
 EBA.entryPoints = {}
-EBA.entryPoints.fx = fx => (console.log(fx), fx)
-EBA.entryPoints.tracks = (tracks, theme) => (console.log(tracks), tracks)
-EBA.entryPoints.gibberish = gibberish => (console.log({gibberish}), gibberish)
+EBA.entryPoints.fx = fx => (undefined, fx)
+EBA.entryPoints.tracks = (tracks, theme) => (undefined, tracks)
+EBA.entryPoints.gibberish = gibberish => (undefined, gibberish)
 
 EBA.options = {
   startDelay: 0.1,
@@ -658,7 +636,6 @@ EBA.initialize = async function () {
 
 EBA.play = async (seed, overrides = {}) => {
   const decodedSeed = window.EulerBeats.decodeSeed(seed)
-  console.log('Playing', seed, decodedSeed)
 
   const {gridLength, xOffset, yOffset, originalSeed} = decodedSeed
   const randomSeed = parseInt(originalSeed, 16)
@@ -668,7 +645,6 @@ EBA.play = async (seed, overrides = {}) => {
       // reallocate memory to garbage-collect previous plays
       EBA.Gibberish.memory = EBA.Gibberish.memory.create(EBA.options.memoryAllocation, Float64Array)
       const theme = EBA.generateTheme(randomSeed, gridLength, xOffset, yOffset, overrides)
-      console.log(theme)
       const gibberish = EBA.generateGibberishCode(theme.tracks, theme.sampleTime)
       const env = {Gibberish: EBA.Gibberish}
       // eslint-disable-next-line no-new-func
@@ -1025,13 +1001,9 @@ EBA.generateGibberishCode = (tracks, sampleTime) => {
 }
 
 function generateTracksCode(tracks, sampleTime) {
-  console.log("here");
   const code = []
   for (let key in tracks) {
-    console.log(key);
-    if (!key.includes("kick") && !key.includes("hat")) {
-      code.push(generateSequencerCode(tracks[key], sampleTime))
-    }
+    code.push(generateSequencerCode(tracks[key], sampleTime))
   }
   return code.join('\n')
 }
@@ -2008,5 +1980,6 @@ r[255&x])+v.charCodeAt(x++);return m(r)}function k(){try{var v;y&&(v=y.randomByt
 e.indexOf(E)}).length?(-1<D.indexOf("async")?"async ":"")+"function"+(-1<D.join("").indexOf("*")?"*":"")+C.substr(B):C}q||(q={});if("number"===typeof q||"string"===typeof q)q={space:q};var r=[],u=[],x=[],z=[],A=[];n=q.isJSON&&!q.space?JSON.stringify(n):JSON.stringify(n,q.isJSON?null:y,q.space);if("string"!==typeof n)return String(n);!0!==q.unsafe&&(n=n.replace(d,a));return 0===r.length&&0===u.length&&0===x.length&&0===z.length&&0===A.length?n:n.replace(b,function(B,C,D){return"D"===C?'new Date("'+
 x[D].toISOString()+'")':"R"===C?u[D].toString():"M"===C?"new Map("+t(Array.from(z[D].entries()),q)+")":"S"===C?"new Set("+t(Array.from(A[D].values()),q)+")":v(r[D])})}},{}]},{},[114])(114)});
 `;
-})(this);
+})(EB);
 
+module.exports = EB;
