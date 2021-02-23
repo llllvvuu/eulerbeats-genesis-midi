@@ -47,25 +47,30 @@ for (var i = 0; i < 27; i++) {
 
 
   var tracks = [];
+  var channel = 0;
   Object.keys(theme.tracks).forEach(function(trackName) {
+    channel++;
     var trackData = theme.tracks[trackName];
     var track = new MidiWriter.Track();
     track.addTrackName(trackName);
     track.setTempo(theme.bpm);
     track.setTimeSignature(theme.pulses, 4);
 
-    // based on Ableton's stock 808s
     var percussionNote;
     if (trackData.instrument === 'Kick') {
       percussionNote = 'C2';
     } else if (trackData.instrument === 'Snare') {
       percussionNote = 'D2';
     } else if (trackData.instrument === 'Clave') {
-      percussionNote = 'E2';
+      percussionNote = 'D#5';
     } else if (trackData.instrument === 'Hat') {
       percussionNote = 'F#2';
     } else if (trackData.instrument === 'Clap') {
       percussionNote = 'D#2';
+    } else if (trackData.instrument === 'Synth') {
+      track.addEvent(new MidiWriter.ProgramChangeEvent({instrument: 81}));
+    } else if (trackData.instrument === 'PolySynth') {
+      track.addEvent(new MidiWriter.ProgramChangeEvent({instrument: 91}));
     }
 
     var j = -1;
@@ -84,7 +89,7 @@ for (var i = 0; i < 27; i++) {
         const duration = `T${Math.round(timing * TICKS_PER_SECOND)}`;
         const pitch = percussionNote;
         const wait = `T${Math.round(delay * TICKS_PER_SECOND)}`;
-        const note = new MidiWriter.NoteEvent({ velocity, duration, pitch, wait });
+        const note = new MidiWriter.NoteEvent({ velocity, duration, pitch, wait, channel: 10 });
         track.addEvent(note);
         delay = 0;
       } else {
@@ -99,7 +104,7 @@ for (var i = 0; i < 27; i++) {
         const duration = `T${Math.round(timing * TICKS_PER_SECOND)}`;
         const pitch = value.map(noteFromPitch);
         const wait = `T${Math.round(delay * TICKS_PER_SECOND)}`;
-        const note = new MidiWriter.NoteEvent({ velocity, duration, pitch, wait });
+        const note = new MidiWriter.NoteEvent({ velocity, duration, pitch, wait, channel });
         track.addEvent(note);
         delay = 0;
       }
