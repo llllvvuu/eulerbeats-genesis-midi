@@ -497,8 +497,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 -------------------------------
 LP09
 -------------------------------
-BPM: 502.2222222222222
-Time Signature: 40/4
+BPM: 311.1111111111111
+Time Signature: 7/4
 ---
 Track Name: kick
 Instrument: Kick
@@ -511,48 +511,48 @@ Instrument Config: {}
 Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
 ---
 Track Name: hat
-Instrument: Clap
+Instrument: Clave
 Instrument Config: {}
 Chain: [{"name":"output","gain":0.17}]
 ---
 Track Name: snare
 Instrument: Snare
 Instrument Config: {
-  "decay": 0.1785678620895851,
-  "snappy": 0.6081831250444707,
-  "tune": 0.0691735181826516
+  "decay": 0.15706885846047955,
+  "snappy": 1.498029509045591,
+  "tune": 0.09381133001043054
 }
-Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
+Chain: [{"name":"reverb1.input","gain":0.5},{"name":"output","gain":0.75}]
 ---
 Track Name: melody
 Instrument: Synth
 Instrument Config: {
-  "decay": 14752.330036166537,
-  "attack": 19327.33185381027,
-  "cutoff": 0.43834703636530326,
-  "filterType": 3,
-  "filterMult": 2.152667903251654,
-  "Q": 0.265045465932053,
+  "decay": 4737.9697496639465,
+  "attack": 3723.5579418723846,
+  "cutoff": 0.4876226600208611,
+  "filterType": 1,
+  "filterMult": 2.81981899565244,
+  "Q": 0.44093330014584353,
   "waveform": "sine",
-  "pulsewidth": 0.3657220579629211,
-  "detune2": -0.9941064065696992,
-  "detune3": 0.7216085192922037,
-  "gain": 0.3542620045710464
+  "pulsewidth": 0.4028033940221576,
+  "detune2": -0.6686784244557202,
+  "detune3": 0.14992513729521306,
+  "gain": 0.34171947069540354
 }
-Chain: [{"name":"reverb1.input"},{"name":"output","gain":0.2}]
+Chain: [{"name":"output","gain":0.3}]
 ---
 Track Name: chords
 Instrument: PolySynth
 Instrument Config: {
-  "waveform": "triangle",
-  "gain": 0.06814939732301682,
-  "attack": 74808.53640737633,
-  "decay": 1685946.9026548674,
-  "shape": "linear",
+  "waveform": "sine",
+  "gain": 0.09992962532305683,
+  "attack": 85536.58983242649,
+  "decay": 476280.00000000006,
+  "shape": "exponential",
   "antialias": true,
   "filterType": 2,
   "panVoices": true,
-  "cutoff": 0.976027606471257
+  "cutoff": 1.4830624366958547
 }
 Chain: [{"name":"chorus"},{"name":"output"}]
 ---
@@ -1365,8 +1365,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 -------------------------------
 LP23
 -------------------------------
-BPM: 480
-Time Signature: 35/4
+BPM: 244.44444444444446
+Time Signature: 7/4
 ---
 Track Name: kick
 Instrument: Kick
@@ -1379,48 +1379,48 @@ Instrument Config: {}
 Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.5}]
 ---
 Track Name: hat
-Instrument: Clap
+Instrument: Hat
 Instrument Config: {}
 Chain: [{"name":"output","gain":0.17}]
 ---
 Track Name: snare
 Instrument: Snare
 Instrument Config: {
-  "decay": 0.17984806963268057,
-  "snappy": 1.3253358400494109,
-  "tune": 0.05900576769327018
+  "decay": 0.12493750431394801,
+  "snappy": 1.3377982003185025,
+  "tune": 0.04686087970731023
 }
-Chain: [{"name":"output","gain":0.75}]
+Chain: [{"name":"reverb2.input","gain":0.5},{"name":"output","gain":0.75}]
 ---
 Track Name: melody
 Instrument: Synth
 Instrument Config: {
-  "decay": 13409.756106505141,
-  "attack": 12860.85459426956,
-  "cutoff": 0.41801153538654034,
-  "filterType": 4,
-  "filterMult": 2.170897963529569,
-  "Q": 0.26755378081616077,
-  "waveform": "triangle",
-  "pulsewidth": 0.47149631190877705,
-  "detune2": -0.30089863559078367,
-  "detune3": 0.14447312648553634,
-  "gain": 0.35376005134421573
+  "decay": 7580.9720425717505,
+  "attack": 5026.945647402856,
+  "cutoff": 0.3937217594146205,
+  "filterType": 2,
+  "filterMult": 2.000489948555696,
+  "Q": 0.457864229156985,
+  "waveform": "sine",
+  "pulsewidth": 0.46407765259391454,
+  "detune2": -0.35010312961094314,
+  "detune3": 0.5232450066596357,
+  "gain": 0.38133726144405955
 }
-Chain: [{"name":"output","gain":0.3}]
+Chain: [{"name":"reverb2.input"},{"name":"output","gain":0.2}]
 ---
 Track Name: chords
 Instrument: PolySynth
 Instrument Config: {
-  "waveform": "triangle",
-  "gain": 0.09376199428747896,
-  "attack": 70404.0194347207,
-  "decay": 1543500,
-  "shape": "linear",
+  "waveform": "pwm",
+  "gain": 0.09420707858280367,
+  "attack": 65484.65647970229,
+  "decay": 303087.27272727276,
+  "shape": "exponential",
   "antialias": true,
   "filterType": 2,
   "panVoices": true,
-  "cutoff": 0.9898824522824724
+  "cutoff": 0.860372360902329
 }
 Chain: [{"name":"chorus"},{"name":"output"}]
 ---

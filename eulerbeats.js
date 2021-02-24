@@ -614,9 +614,7 @@ let initializingAudio = false
 
 EBA.isReady = () => EBA.Gibberish && EBA.Gibberish.output
 
-if(window.document) {
-  document.addEventListener('DOMContentLoaded', () => EBA.initialize().catch(console.error), false)
-}
+document.addEventListener('DOMContentLoaded', () => EBA.initialize().catch(console.error), false)
 
 EBA.initialize = async function () {
   return new Promise((resolve, reject) => {
@@ -1025,13 +1023,9 @@ EBA.generateGibberishCode = (tracks, sampleTime) => {
 }
 
 function generateTracksCode(tracks, sampleTime) {
-  console.log("here");
   const code = []
   for (let key in tracks) {
-    console.log(key);
-    if (!key.includes("kick") && !key.includes("hat")) {
-      code.push(generateSequencerCode(tracks[key], sampleTime))
-    }
+    code.push(generateSequencerCode(tracks[key], sampleTime))
   }
   return code.join('\n')
 }
