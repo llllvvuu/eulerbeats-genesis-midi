@@ -42,6 +42,8 @@ into MIDI.
 
 The console log also shows the synth settings and how the reverb and chorus is hooked up.
 
+`node export.js` will write all 27 MIDI files to the current directory.
+
 ## Recreating the Synths + Reverb
 
 I have Ableton files ready made in the `Ableton/` folder. For other DAWs, synths can be set up
