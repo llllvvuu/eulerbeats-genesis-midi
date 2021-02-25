@@ -2,6 +2,8 @@
 LP01
 -------------------------------
 BPM: 333.3333333333333
+Key Signature: F Mode 3
+Scale: F,F#,G#,A#,C,C#,D#
 Time Signature: 12/4
 ---
 Track Name: kick
@@ -64,6 +66,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP02
 -------------------------------
 BPM: 346.6666666666667
+Key Signature: D# Minor
+Scale: D#,F,F#,G#,A#,B,C#
 Time Signature: 11/4
 ---
 Track Name: kick
@@ -126,6 +130,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP03
 -------------------------------
 BPM: 275.55555555555554
+Key Signature: E Minor
+Scale: E,F#,G,A,B,C,D
 Time Signature: 10/4
 ---
 Track Name: kick
@@ -188,6 +194,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP04
 -------------------------------
 BPM: 400
+Key Signature: G Minor
+Scale: G,A,A#,C,D,D#,F
 Time Signature: 12/4
 ---
 Track Name: kick
@@ -250,6 +258,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP05
 -------------------------------
 BPM: 311.1111111111111
+Key Signature: C Major
+Scale: C,D,E,F,G,A,B
 Time Signature: 12/4
 ---
 Track Name: kick
@@ -312,6 +322,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP06
 -------------------------------
 BPM: 328.8888888888889
+Key Signature: F Major
+Scale: F,G,A,A#,C,D,E
 Time Signature: 9/4
 ---
 Track Name: kick
@@ -374,6 +386,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP07
 -------------------------------
 BPM: 377.77777777777777
+Key Signature: C Major
+Scale: C,D,E,F,G,A,B
 Time Signature: 12/4
 ---
 Track Name: kick
@@ -436,6 +450,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP08
 -------------------------------
 BPM: 360
+Key Signature: F Mode 3
+Scale: F,F#,G#,A#,C,C#,D#
 Time Signature: 11/4
 ---
 Track Name: kick
@@ -498,6 +514,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP09
 -------------------------------
 BPM: 311.1111111111111
+Key Signature: G Minor
+Scale: G,A,A#,C,D,D#,F
 Time Signature: 7/4
 ---
 Track Name: kick
@@ -560,6 +578,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP10
 -------------------------------
 BPM: 346.6666666666667
+Key Signature: F# Minor
+Scale: F#,G#,A,B,C#,D,E
 Time Signature: 11/4
 ---
 Track Name: kick
@@ -622,6 +642,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP11
 -------------------------------
 BPM: 368.8888888888889
+Key Signature: F# Mode 3
+Scale: F#,G,A,B,C#,D,E
 Time Signature: 10/4
 ---
 Track Name: kick
@@ -684,6 +706,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP12
 -------------------------------
 BPM: 384.44444444444446
+Key Signature: G Mode 3
+Scale: G,G#,A#,C,D,D#,F
 Time Signature: 10/4
 ---
 Track Name: kick
@@ -746,6 +770,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP13
 -------------------------------
 BPM: 364.44444444444446
+Key Signature: F# Minor
+Scale: F#,G#,A,B,C#,D,E
 Time Signature: 9/4
 ---
 Track Name: kick
@@ -808,6 +834,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP14
 -------------------------------
 BPM: 280
+Key Signature: D Mode 3
+Scale: D,D#,F,G,A,A#,C
 Time Signature: 8/4
 ---
 Track Name: kick
@@ -870,6 +898,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP15
 -------------------------------
 BPM: 364.44444444444446
+Key Signature: D# Mode 3
+Scale: D#,E,F#,G#,A#,B,C#
 Time Signature: 9/4
 ---
 Track Name: kick
@@ -932,6 +962,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP16
 -------------------------------
 BPM: 260
+Key Signature: C# Mode 3
+Scale: C#,D,E,F#,G#,A,B
 Time Signature: 10/4
 ---
 Track Name: kick
@@ -994,6 +1026,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP17
 -------------------------------
 BPM: 275.55555555555554
+Key Signature: E Major
+Scale: E,F#,G#,A,B,C#,D#
 Time Signature: 10/4
 ---
 Track Name: kick
@@ -1056,6 +1090,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP18
 -------------------------------
 BPM: 333.3333333333333
+Key Signature: G Major
+Scale: G,A,B,C,D,E,F#
 Time Signature: 11/4
 ---
 Track Name: kick
@@ -1118,6 +1154,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP19
 -------------------------------
 BPM: 366.66666666666663
+Key Signature: F Minor
+Scale: F,G,G#,A#,C,C#,D#
 Time Signature: 12/4
 ---
 Track Name: kick
@@ -1180,6 +1218,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP20
 -------------------------------
 BPM: 300
+Key Signature: C Major
+Scale: C,D,E,F,G,A,B
 Time Signature: 8/4
 ---
 Track Name: kick
@@ -1242,6 +1282,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP21
 -------------------------------
 BPM: 220
+Key Signature: F# Major
+Scale: F#,G#,A#,B,C#,D#,F
 Time Signature: 8/4
 ---
 Track Name: kick
@@ -1304,6 +1346,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP22
 -------------------------------
 BPM: 368.8888888888889
+Key Signature: B Mode 3
+Scale: B,C,D,E,F#,G,A
 Time Signature: 10/4
 ---
 Track Name: kick
@@ -1366,6 +1410,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP23
 -------------------------------
 BPM: 244.44444444444446
+Key Signature: F Minor
+Scale: F,G,G#,A#,C,C#,D#
 Time Signature: 7/4
 ---
 Track Name: kick
@@ -1428,6 +1474,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP24
 -------------------------------
 BPM: 333.3333333333333
+Key Signature: D# Major
+Scale: D#,F,G,G#,A#,C,D
 Time Signature: 11/4
 ---
 Track Name: kick
@@ -1490,6 +1538,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP25
 -------------------------------
 BPM: 328.8888888888889
+Key Signature: D# Minor
+Scale: D#,F,F#,G#,A#,B,C#
 Time Signature: 9/4
 ---
 Track Name: kick
@@ -1552,6 +1602,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP26
 -------------------------------
 BPM: 257.77777777777777
+Key Signature: F# Major
+Scale: F#,G#,A#,B,C#,D#,F
 Time Signature: 9/4
 ---
 Track Name: kick
@@ -1614,6 +1666,8 @@ Chain: [{"name":"chorus"},{"name":"output"}]
 LP27
 -------------------------------
 BPM: 400
+Key Signature: F# Major
+Scale: F#,G#,A#,B,C#,D#,F
 Time Signature: 12/4
 ---
 Track Name: kick

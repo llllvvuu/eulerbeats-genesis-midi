@@ -13,6 +13,9 @@ const SEEDS = [
   '0x224000903', '0x230080802', '0x532070401'
 ];
 
+const MODES = [0, 2, 4, 5, 7, 9, 11];
+const KEYS = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'];
+
 for (var i = 0; i < 27; i++) {
   const seed = SEEDS[i];
 
@@ -37,6 +40,7 @@ for (var i = 0; i < 27; i++) {
     track.addTrackName(trackName);
     track.setTempo(theme.bpm);
     track.setTimeSignature(theme.pulses, 4);
+    track.setKeySignature(KEYS[(theme.key - MODES[theme.mode - 1] + 24) % 12]);
 
     var percussionNote;
     if (trackData.instrument === 'Kick') {
@@ -55,14 +59,18 @@ for (var i = 0; i < 27; i++) {
       track.addEvent(new MidiWriter.ProgramChangeEvent({instrument: 91}));
     }
 
-    var j = -1;
     var delay = trackData.start;
+
+    var startTime = 0;
     for (var i = 0; i < trackData.repeats * (trackData.accents || trackData.values).length; i++) {
-      j++;
+      if (startTime > trackData.duration) {
+        break;
+      }
+      const timing = trackData.timings[i % trackData.timings.length];
+      startTime += timing;
       if (trackData.accents) {
         // percussion
-        const accent = trackData.accents[j % trackData.accents.length];
-        const timing = trackData.timings[j % trackData.timings.length];
+        const accent = trackData.accents[i % trackData.accents.length];
         if (accent < 0.000001) {
           delay += timing;
           continue;
@@ -76,8 +84,7 @@ for (var i = 0; i < 27; i++) {
         delay = 0;
       } else {
         // melody
-        const value = MidiWriter.Utils.toArray(trackData.values[j % trackData.values.length]);
-        const timing = trackData.timings[j % trackData.timings.length];
+        const value = MidiWriter.Utils.toArray(trackData.values[i % trackData.values.length]);
         if (value.reduce(function(acc, val) { return acc + val; }, 0) < 0.000001) {
           delay += timing;
           continue;

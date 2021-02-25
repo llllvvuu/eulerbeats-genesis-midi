@@ -51,3 +51,32 @@ according to `synthinfo.txt` which I dumped from `synthinfo.js`. The numbers are
 TODO: clarify this.
 
 TODO: Create the `pwm` waveform (the horn-sounding one - think this can just be done in Operator). Improve the reverb if possible.
+
+## .mp3
+[LP01](https://media.eulerbeats.com/0506060502.mp3)
+[LP02](https://media.eulerbeats.com/0434050703.mp3)
+[LP03](https://media.eulerbeats.com/0302020302.mp3)
+[LP04](https://media.eulerbeats.com/0511000303.mp3)
+[LP05](https://media.eulerbeats.com/052a0a0603.mp3)
+[LP06](https://media.eulerbeats.com/0214080703.mp3)
+[LP07](https://media.eulerbeats.com/0535010503.mp3)
+[LP08](https://media.eulerbeats.com/0424050803.mp3)
+[LP09](https://media.eulerbeats.com/0021090900.mp3)
+[LP10](https://media.eulerbeats.com/0411000900.mp3)
+[LP11](https://media.eulerbeats.com/03380a0903.mp3)
+[LP12](https://media.eulerbeats.com/0303060200.mp3)
+[LP13](https://media.eulerbeats.com/0214070301.mp3)
+[LP14](https://media.eulerbeats.com/0126080103.mp3)
+[LP15](https://media.eulerbeats.com/0205010700.mp3)
+[LP16](https://media.eulerbeats.com/0321080302.mp3)
+[LP17](https://media.eulerbeats.com/031d030403.mp3)
+[LP18](https://media.eulerbeats.com/0422050b03.mp3)
+[LP19](https://media.eulerbeats.com/0507010200.mp3)
+[LP20](https://media.eulerbeats.com/0125050203.mp3)
+[LP21](https://media.eulerbeats.com/0106010503.mp3)
+[LP22](https://media.eulerbeats.com/0328040403.mp3)
+[LP23](https://media.eulerbeats.com/001c0a0903.mp3)
+[LP24](https://media.eulerbeats.com/0425020b03.mp3)
+[LP25](https://media.eulerbeats.com/0224000903.mp3)
+[LP26](https://media.eulerbeats.com/0230080802.mp3)
+[LP27](https://media.eulerbeats.com/0532070401.mp3)

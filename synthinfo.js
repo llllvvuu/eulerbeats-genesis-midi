@@ -24,6 +24,8 @@ for (var i = 0; i < 27; i++) {
   console.log(`LP${i < 9 ? '0' : ''}${i + 1}`);
   console.log(`-------------------------------`);
   console.log(`BPM: ${theme.bpm}`);
+  console.log(`Key Signature: ${theme.keySPN}`);
+  console.log(`Scale: ${theme.scaleSPN}`);
   console.log(`Time Signature: ${theme.pulses}/4`);
   console.log(`---`);
   Object.keys(theme.tracks).forEach(function(trackName) {
