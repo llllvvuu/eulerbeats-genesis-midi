@@ -2,7 +2,7 @@
 
 # WIP - Need to finish rest of Ableton files
 
-These are MIDI/project file for remixing [Eulerbeats](https://eulerbeats.com/).
+These are MIDI/project files/sheet music for remixing [Eulerbeats](https://eulerbeats.com/).
 Everything is ripped from their on-chain(!!) audio generation code.
 
 Big thanks to the Eulerbeats team for creating a great project. Ape strong
